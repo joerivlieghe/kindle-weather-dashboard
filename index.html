@@ -417,6 +417,9 @@
 
             moment.locale(momentLocale());
 
+            updateTime();
+            setInterval(updateTime, 1000);
+
             cleaner = document.getElementById("cleaner");
 
             page = document.getElementById("page");
@@ -572,6 +575,13 @@
                 return moment(dateTime).utcOffset(utcOffset, false);
             }
         }
+        function updateTime() {
+        var currentTimeElement = document.getElementById("currentTime");
+        var now = new Date();
+        var formattedTime = moment(now).format('HH:mm:ss'); // Using moment.js for formatting
+        currentTimeElement.innerHTML = formattedTime;
+        }
+
 
     </script>
 
@@ -621,6 +631,7 @@
         </div>
     </div>
     <div id="date"></div>
+    <div id="currentTime"></div> <!-- New element for displaying current time -->
     <div id="sun"></div>
 </div>
 <div id="cleaner"></div>
