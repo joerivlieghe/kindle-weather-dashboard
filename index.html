@@ -418,7 +418,7 @@
             moment.locale(momentLocale());
 
             updateTime();
-            setInterval(updateTime, 1000);
+            setInterval(updateTime, 60000);
 
             cleaner = document.getElementById("cleaner");
 
@@ -578,7 +578,7 @@
         function updateTime() {
         var currentTimeElement = document.getElementById("currentTime");
         var now = new Date();
-        var formattedTime = moment(now).format('HH:mm:ss'); // Using moment.js for formatting
+        var formattedTime = moment(now).format('HH:mm'); // Using moment.js for formatting
         currentTimeElement.innerHTML = formattedTime;
         }
 
