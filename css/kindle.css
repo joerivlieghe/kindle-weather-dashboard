@@ -223,3 +223,17 @@ html.night {
 .feelsLike, .feelsLike * {
     font-style: italic;
 }
+
+#currentTime {
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    font-size: 50px;
+    font-size: 4.3rem;
+    color: inherit; /* Inherit color for night mode compatibility */
+}
+
+.landscape #currentTime {
+    font-size: 40px;
+    font-size: 4.3rem;
+}
