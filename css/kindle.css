@@ -38,7 +38,7 @@ html.night {
 
 #city {
     font-size: 20px;
-    font-size: 7rem;
+    font-size: 5rem;
     position: absolute;
     top: 1.5%;
     right: 3.3%;
@@ -237,8 +237,8 @@ html.night {
 }
 
 #currentTime {
-    font-size: 50px; /* Set font size to 50px */
-    font-size: 7rem; /* Responsive font size */
+    font-size: 70px; /* Set font size to 50px */
+    font-size: 9rem; /* Responsive font size */
     position: absolute;
     bottom: 47%;
     left: 15%; /* Adjust left position to align next to lastUpdate */
