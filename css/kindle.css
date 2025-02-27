@@ -54,8 +54,8 @@ html.night {
 
 .tempWrapper {
     position: absolute;
-    right: 8%;
-    top: 10%;
+    right: 15%;
+    top: 8%;
 }
 
 /*
@@ -85,7 +85,7 @@ html.night {
 #iconWrapper {
     position: absolute;
     left: 5%;
-    top: 10%;
+    top: 12%;
 }
 
 .forecast {
@@ -136,8 +136,8 @@ html.night {
 }
 
 .forecastIconWrapper {
-    font-size: 70px;
-    font-size: 14.2rem;
+    font-size: 60px;
+    font-size: 13rem;
 }
 
 .colTemp {
