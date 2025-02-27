@@ -37,7 +37,7 @@ html.night {
 }
 
 #city {
-    font-size: 50px;
+    font-size: 20px;
     font-size: 7rem;
     position: absolute;
     top: 1.5%;
@@ -58,6 +58,7 @@ html.night {
     top: 10%;
 }
 
+/*
 #lastUpdate {
     font-size: 10px;
     font-size: 1.4rem;
@@ -65,6 +66,7 @@ html.night {
     bottom: 47%;
     left: 3.3%;
 }
+*/
 
 #description {
     position: absolute;
@@ -76,7 +78,7 @@ html.night {
 }
 
 #icon {
-    font-size: 200px;
+    font-size: 150px;
     font-size: 35rem;
 }
 
@@ -134,7 +136,7 @@ html.night {
 }
 
 .forecastIconWrapper {
-    font-size: 80px;
+    font-size: 70px;
     font-size: 14.2rem;
 }
 
@@ -224,17 +226,31 @@ html.night {
     font-style: italic;
 }
 
-#lastUpdate, #currentTime {
+#lastUpdate {
+    font-size: 10px; /* Set font size to 10px */
+    font-size: 1.4rem; /* Responsive font size */
+    position: absolute;
+    bottom: 47%;
+    left: 3.3%;
+    display: inline-block; /* Display inline to position next to currentTime */
+    margin-right: 10px; /* Optional: Add some space between the elements */
+}
+
+#currentTime {
     font-size: 50px; /* Set font size to 50px */
     font-size: 7rem; /* Responsive font size */
     position: absolute;
     bottom: 47%;
-    left: 3.3%;
-    display: inline-block; /* Display inline to position next to each other */
-    margin-right: 20px; /* Optional: Add some space between the elements */
+    left: 10%; /* Adjust left position to align next to lastUpdate */
+    display: inline-block;
 }
 
-.landscape #lastUpdate, .landscape #currentTime {
+.landscape #lastUpdate {
+    font-size: 7.1px; /* Adjust font size for landscape */
+    font-size: 1.4rem;
+}
+
+.landscape #currentTime {
     font-size: 35.4px; /* Adjust font size for landscape */
     font-size: 7rem;
 }
