@@ -54,7 +54,7 @@ html.night {
 
 .tempWrapper {
     position: absolute;
-    right: 15%;
+    right: 5%;
     top: 8%;
 }
 
@@ -78,8 +78,8 @@ html.night {
 }
 
 #icon {
-    font-size: 150px;
-    font-size: 28rem;
+    font-size: 175px;
+    font-size: 30rem;
 }
 
 #iconWrapper {
@@ -228,9 +228,9 @@ html.night {
 
 #lastUpdate {
     font-size: 10px; /* Set font size to 10px */
-    font-size: 1rem; /* Responsive font size */
+    font-size: 1.3rem; /* Responsive font size */
     position: absolute;
-    bottom: 47%;
+    bottom: 46%;
     left: 3.3%;
     display: inline-block; /* Display inline to position next to currentTime */
     margin-right: 10px; /* Optional: Add some space between the elements */
@@ -241,7 +241,7 @@ html.night {
     font-size: 70px; /* Set font size to 50px */
     font-size: 9rem; /* Responsive font size */
     position: absolute;
-    bottom: 47%;
+    bottom: 46%;
     left: 15%; /* Adjust left position to align next to lastUpdate */
     display: inline-block;
     vertical-align: middle;
