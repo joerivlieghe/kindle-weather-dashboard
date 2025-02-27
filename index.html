@@ -578,7 +578,11 @@
         function updateTime() {
         var currentTimeElement = document.getElementById("currentTime");
         var now = new Date();
-        var formattedTime = moment(now).format('HH:mm'); // Using moment.js for formatting
+        
+        // Adjust the time using the timezone offset from OpenWeather
+        var localTime = moment(now).utcOffset(dataTimeZone / 60, false);
+        var formattedTime = localTime.format('HH:mm'); // Format time as HH:mm
+        
         currentTimeElement.innerHTML = formattedTime;
         }
 
