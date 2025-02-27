@@ -228,7 +228,7 @@ html.night {
 
 #lastUpdate {
     font-size: 10px; /* Set font size to 10px */
-    font-size: 1.3rem; /* Responsive font size */
+    font-size: 1.4rem; /* Responsive font size */
     position: absolute;
     bottom: 46%;
     left: 3.3%;
@@ -238,8 +238,8 @@ html.night {
 }
 
 #currentTime {
-    font-size: 70px; /* Set font size to 50px */
-    font-size: 9rem; /* Responsive font size */
+    font-size: 90px; /* Set font size to 50px */
+    font-size: 11rem; /* Responsive font size */
     position: absolute;
     bottom: 46%;
     left: 15%; /* Adjust left position to align next to lastUpdate */
