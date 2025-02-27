@@ -40,7 +40,7 @@ html.night {
     font-size: 20px;
     font-size: 5rem;
     position: absolute;
-    top: 1.5%;
+    top: 3.5%;
     right: 3.3%;
     display: block;
     text-decoration: none;
@@ -85,7 +85,7 @@ html.night {
 #iconWrapper {
     position: absolute;
     left: 5%;
-    top: 8.5%;
+    top: 12.5%;
 }
 
 .forecast {
@@ -228,12 +228,13 @@ html.night {
 
 #lastUpdate {
     font-size: 10px; /* Set font size to 10px */
-    font-size: 1.4rem; /* Responsive font size */
+    font-size: 1rem; /* Responsive font size */
     position: absolute;
     bottom: 47%;
     left: 3.3%;
     display: inline-block; /* Display inline to position next to currentTime */
     margin-right: 10px; /* Optional: Add some space between the elements */
+    vertical-align: middle;
 }
 
 #currentTime {
@@ -243,6 +244,7 @@ html.night {
     bottom: 47%;
     left: 15%; /* Adjust left position to align next to lastUpdate */
     display: inline-block;
+    vertical-align: middle;
 }
 
 .landscape #lastUpdate {
