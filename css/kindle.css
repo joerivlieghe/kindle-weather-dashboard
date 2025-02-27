@@ -79,7 +79,7 @@ html.night {
 
 #icon {
     font-size: 150px;
-    font-size: 35rem;
+    font-size: 30rem;
 }
 
 #iconWrapper {
@@ -241,7 +241,7 @@ html.night {
     font-size: 7rem; /* Responsive font size */
     position: absolute;
     bottom: 47%;
-    left: 10%; /* Adjust left position to align next to lastUpdate */
+    left: 15%; /* Adjust left position to align next to lastUpdate */
     display: inline-block;
 }
 
