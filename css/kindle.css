@@ -54,7 +54,7 @@ html.night {
 
 .tempWrapper {
     position: absolute;
-    right: 3.3%;
+    right: 8%;
     top: 10%;
 }
 
@@ -79,13 +79,13 @@ html.night {
 
 #icon {
     font-size: 150px;
-    font-size: 30rem;
+    font-size: 28rem;
 }
 
 #iconWrapper {
     position: absolute;
     left: 5%;
-    top: 12.5%;
+    top: 10%;
 }
 
 .forecast {
