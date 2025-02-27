@@ -1,4 +1,4 @@
-var api_locParams = "lat=50.1243111&lon=14.4901953";
+var api_locParams = "q=Sint-Amandsberg";
 // or api_locParams = "q=Paris";
 var api_appId = "3acddc338241a9986ae122a37b08bb09";
 var api_lang = "nl"
