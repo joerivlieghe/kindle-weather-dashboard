@@ -40,7 +40,7 @@ html.night {
     font-size: 150px; /* Set font size to 50px */
     font-size: 16rem; /* Responsive font size */
     position: absolute;
-    top: 8%;
+    top: 4%;
     left: 5%; /* Adjust left position to align next to lastUpdate */
     display: inline-block;
 }
