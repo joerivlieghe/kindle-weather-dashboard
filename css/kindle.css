@@ -40,14 +40,14 @@ html.night {
     font-size: 150px; /* Set font size to 50px */
     font-size: 16rem; /* Responsive font size */
     position: absolute;
-    top: 4%;
-    left: 5%; /* Adjust left position to align next to lastUpdate */
+    top: 15%;
+    left: 3%; /* Adjust left position to align next to lastUpdate */
     display: inline-block;
 }
 
 #city {
-    font-size: 20px;
-    font-size: 5rem;
+    font-size: 12px;
+    font-size: 3rem;
     position: absolute;
     top: 3.5%;
     right: 3.3%;
@@ -56,15 +56,15 @@ html.night {
 }
 
 #temp {
-    font-size: 90px;
-    font-size: 11rem;
+    font-size: 110px;
+    font-size: 15rem;
     display: inline-block;
 }
 
 .tempWrapper {
     position: absolute;
     left: 20%;
-    bottom: 46%;
+    bottom: 52%;
 }
 
 /*
@@ -87,14 +87,14 @@ html.night {
 }
 
 #icon {
-    font-size: 175px;
-    font-size: 30rem;
+    font-size: 150px;
+    font-size: 26rem;
 }
 
 #iconWrapper {
     position: absolute;
     right: 5%;
-    top: 8%;
+    top: 15%;
 }
 
 .forecast {
