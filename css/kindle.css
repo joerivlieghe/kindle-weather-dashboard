@@ -37,10 +37,10 @@ html.night {
 }
 
 #currentTime {
-    font-size: 150px; /* Set font size to 50px */
-    font-size: 16rem; /* Responsive font size */
+    font-size: 170px; /* Set font size to 50px */
+    font-size: 18rem; /* Responsive font size */
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 3%; /* Adjust left position to align next to lastUpdate */
     display: inline-block;
 }
