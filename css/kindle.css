@@ -36,6 +36,14 @@ html.night {
     overflow: hidden;
 }
 
+#currentTime {
+    font-size: 150px; /* Set font size to 50px */
+    font-size: 28rem; /* Responsive font size */
+    position: absolute;
+    top: 8%;
+    left: 5%; /* Adjust left position to align next to lastUpdate */
+}
+
 #city {
     font-size: 20px;
     font-size: 5rem;
@@ -47,15 +55,15 @@ html.night {
 }
 
 #temp {
-    font-size: 200px;
-    font-size: 28rem;
+    font-size: 90px;
+    font-size: 11rem;
     display: inline-block;
 }
 
 .tempWrapper {
     position: absolute;
-    right: 5%;
-    top: 8%;
+    left: 20%;
+    bottom: 46%;
 }
 
 /*
@@ -84,8 +92,8 @@ html.night {
 
 #iconWrapper {
     position: absolute;
-    left: 10%;
-    top: 10%;
+    right: 5%;
+    top: 8%;
 }
 
 .forecast {
@@ -232,20 +240,9 @@ html.night {
     position: absolute;
     bottom: 46%;
     left: 3.3%;
-    display: inline-block; /* Display inline to position next to currentTime */
-    margin-right: 10px; /* Optional: Add some space between the elements */
-    vertical-align: middle;
 }
 
-#currentTime {
-    font-size: 90px; /* Set font size to 50px */
-    font-size: 11rem; /* Responsive font size */
-    position: absolute;
-    bottom: 46%;
-    left: 15%; /* Adjust left position to align next to lastUpdate */
-    display: inline-block;
-    vertical-align: middle;
-}
+
 
 .landscape #lastUpdate {
     font-size: 7.1px; /* Adjust font size for landscape */
